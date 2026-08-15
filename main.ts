@@ -98,7 +98,7 @@ namespace stepperMotor {
                 basic.pause(this.delay);
             }
 
-            this.state = 0;
+        //    this.state = 0;
         }
 
         //% blockId=moveClockwise block="move %motor| %steps|%unit| clockwise"
@@ -115,7 +115,7 @@ namespace stepperMotor {
                 basic.pause(this.delay);
             }
 
-            this.state = 0;
+        //    this.state = 0;
         }
 
         //% blockId=stopMotor block="stop %motor"
